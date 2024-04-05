@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+*{ margin: 0; padding: 0;box-sizing: border-box;font-family: "Manrope", sans-serif; background-color: #111215;}
+a{text-decoration: none;}
+  .bg-color{background-color: #000000;position: relative; }
+
+  /* .left-el{
+    background-image: url(/assest/redvector.png);
+    background-repeat: no-repeat;
+  }
+  .right-el{
+    background-image: url(/assest/right-red-vector.png);
+    background-repeat: no-repeat;
+  } */
+  .top-nav div img {
+    max-width: 45vw;
+  }
+ .navbar-expand-lg .navbar-nav .nav-link { padding-right: 1rem !important;padding-left: 1rem !important;text-transform: uppercase;color: #ffffff;font-size: 16px !important;}
+ .hero{    padding: 100px 0 80px 0px;}
+ .slide-content h1{font-size: 75px;color: #ffffff;font-weight: 800; text-transform: uppercase;}
+ .slide-content p{font-size: 16px;color: #E7E7E7; text-transform: lowercase;margin-top: 30px;}
+ .slide-content div img {max-width: 200px;}
+ .slide-content div span {  font-family:"Manrope", sans-serif; color: #000;font-size: 96px;text-shadow: -1px 1px 0 #fff,1px 1px 0 #fff,1px -1px 0 #fff,-1px -1px 0 #fff;}
+ .slide-img img{max-width: 500px; border-radius:30px;}
+.left{position: absolute; top: 10%;left: 0;}
+.right{position: absolute;top: 10%;right: 0;}
+.under{text-align: center;}
+.under::after{ content: " ";display: flex;margin: 0 auto;width: 200px;height: 3px;background-color: #D91924;text-align: center;margin-top: 10px;margin-bottom: 10px;}
+.services{background-color: #111215;}
+.services-cnt h2{ font-size: 40px; font-weight: 900; color: #E7E7E7;}
+.services-cnt p {color: #EDEDED; font-size: 24px; font-weight:400;}
+.services p{font-size: 24px;font-weight: 600;}
+.box{border: 1px solid #525252; width: 300px !important; padding: 20px; border-radius: 10px; margin-top: 20px;} 
+.box h3{font-size: 18px;color: #FFFFFF;}
+.box div span {font-size: 30px; color: #ffffff;}
+.box a {color: #D91924;font-size: 16px;}
+.boxlg{border: 1px solid #525252; width: 380px !important; padding: 20px; border-radius: 10px; margin-top: 20px;} 
+.boxlg h3{font-size: 18px;color: #FFFFFF;}
+.boxlg div span {font-size: 30px; color: #ffffff;}
+.boxlg a {color: #D91924;font-size: 16px;}
+.services-box{display: flex;flex-wrap: wrap;justify-content: center; column-gap: 20px;}
+.services{padding: 80px 0 80px 0;}
+.testimonial{background-image: url("/assest/bg-img.png");
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+/* owl carosol css */
+
+.owl-theme .owl-dots .owl-dot span {
+  height: 15px !important;
+  width: 15px !important;
+  margin: 7px;
+  background: #fff;
+  border: 1px solid #fff;
+}
+
+
+
+.owlCarousel img{
+  width: 400px !important;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  width: 15px;
+  height: 15px;
+  margin: 7px;
+  background: var(--secondary-color);
+  border: 1px solid #fff;
+}
+
